@@ -20,12 +20,15 @@ function createWindow () {
    * Initial window options
    */
   mainWindow = new BrowserWindow({
-    height: 563,
-    useContentSize: true,
-    width: 1000
+    width: 800,
+    height: 600,
+    resizable: false
   })
 
   mainWindow.loadURL(winURL)
+
+  // 關閉頂部菜單列
+  mainWindow.setMenuBarVisibility(false)
 
   mainWindow.on('closed', () => {
     mainWindow = null
