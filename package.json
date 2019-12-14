@@ -23,7 +23,7 @@
   },
   "build": {
     "productName": "my-first-electron-vue",
-    "appId": "net.lucasyang.myfirstelectronvue",
+    "appId": "com.ycs77.my-first-electron-vue",
     "directories": {
       "output": "build"
     },
